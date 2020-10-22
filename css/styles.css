@@ -3,20 +3,18 @@ body {
 
     background-color: #fff;
     font-family: 'Oxygen', sans-serif;
+
   }
   
   /** HEADER **/
   #header-nav {
-    background-color: #cccad3;
-    border-radius: 0;
+    background-color: #FFF;
     border: 1px;
-    margin: 1;
+    margin-top: 10px;
   }
-  
 
-  
   .navbar-brand {
-    padding-top: 25px;
+    padding-top: 0px;
     height: 100px;
   }
   #nav-list a {
@@ -25,30 +23,30 @@ body {
   #nav-list a {
       color: #0a090a;
       text-align:center;
-      border: 10px;
+
   }
   #nav-list a:hover {
-      background: #e7e7e7;
+      background: #FFF;
   }
   #nav-list a span { 
       font-size:1.9em;
   }
-#menu-border {
-    border: 10px;
-}
+  #nav-list {
+    background-color: #cccad3;
+  }
+
 
 
 .navbar-header, .button.navbar-toogle, .navbar-header, .icon-bar {
-    border: 10px;
-    background-color: #fafafa;
+
 }
 .navbar-header button.navbar-toogle {
     clear:both;
     margin-top: -30px;
 }
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { 
     font-family: 'Lora', serif;
-    color: #557c3e;
+    color: #c09a68;
     font-size: 1.5em;
 
     font-weight: bold;
@@ -64,6 +62,7 @@ body {
 
   .navbar-brand p span { /* Star-K */
     vertical-align: middle;
+    
   }
 
   /* HOME PAGE */
@@ -74,16 +73,13 @@ body {
 .container .jumbotron {
     text-align: center;
     padding: 0;
+    text-decoration: none;
   }
 
  #menu-border {
-    border: 1px;
     border: #557c3e;
  }  
-  #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
-    box-shadow: 0 1px 5px 1px #773939;
 
-  }
   /********** Large devices only **********/
 @media (min-width: 1200px) {
     .jumbotron{
@@ -129,10 +125,7 @@ body {
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
-  .navbar-brand p { /* Kosher cert */
-    font-size: .6em;
-    margin-top: 12px;
-  }
+
   .navbar-brand p img { /* Star-K */
     height: 20px;
   }
